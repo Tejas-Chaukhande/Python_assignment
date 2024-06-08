@@ -8,7 +8,7 @@ Roll_Number=int(input("Enter the Roll number: "))
 Percentage=float(input("Enter the Percentage: "))
 
 print(Student_name,Roll_Number,Percentage,sep='\n')
-
+ 
 
 -------------------------------------------------------------------
 
