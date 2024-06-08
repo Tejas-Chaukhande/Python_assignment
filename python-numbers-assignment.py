@@ -4,7 +4,7 @@ Check the values and type of those after the assignment.
 """
 x=75
 PI=3.14
-print("x=",x,"PI=",PI)
+print("x=",x,"PI=",PI) 
 print(type(x),type(PI))
 
 ----------------------------------------------------------------------
