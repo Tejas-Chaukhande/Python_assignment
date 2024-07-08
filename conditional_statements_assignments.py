@@ -53,13 +53,14 @@ Matinee show (before 5 PM) offers a 25% discount to all.
 """
 age=int(input("Enter the age: "))
 time=int(input("Enter the time in: "))
+zone=input("Input time zone am/pm: ")
+amt=10
 if(age<12 or age>65):
-    if(time<5):
-        print("you have to pay $",2.5)
-    else:
-        print("you have to pay $",5)
-else:
-    print("You have to pay $",10)
+    amt=amt*0.5
+    if(time<5 and zone=="pm" or zone=="PM"):
+        amt=amt*0.75
+
+print("your ticket price is: $",amt)
 
 
 
